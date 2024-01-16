@@ -57,7 +57,7 @@ L’entreprise conçoit et développe une nouvelle application. Les développeur
     - En haut de la page, sélectionnez **Ajouter une attribution de rôle**.
     - Sur la page **Rôles des postes**, recherchez et sélectionnez le rôle **Administrateur Key Vault**.
     - Sur la page **Membres**, sélectionnez **Utilisateur, groupe ou principal du service**.
-    - Sélectionnez **Sélectionner des membres**.
+    - Cliquez sur **Sélectionner des membres**.
     - Recherchez et sélectionnez votre compte d’utilisateur. Votre compte d’utilisateur est affiché en haut à droite du portail.
     - Cliquez sur **Sélectionner**, puis sur **Vérifier + attribuer**.
     - Sélectionnez **Vérifier + attribuer** une deuxième fois pour ajouter l’attribution de rôle.
@@ -68,7 +68,8 @@ L’entreprise conçoit et développe une nouvelle application. Les développeur
     - Dans le portail, recherchez et sélectionnez **Coffres de clés**.
     - Sélectionnez **Créer**.
     - Sélectionnez votre **groupe de ressources**.
-    - Indiquez le **nom** du coffre de clés. Le nom doit être unique. 
+    - Indiquez le **nom** du coffre de clés. Le nom doit être unique.
+    - Sous l’onglet **Configuration de l’accès**, assurez-vous que **Stratégie d’accès au coffre** est sélectionné. 
     - Sélectionnez **Revoir + créer**.
     - Attendez la fin des vérifications de validation puis cliquez sur **Créer**.
     - Une fois le déploiement terminé, sélectionnez **Accéder à la ressource**.
@@ -95,7 +96,7 @@ L’entreprise conçoit et développe une nouvelle application. Les développeur
     
 1. Configurez le compte de stockage de manière à utiliser une clé gérée par le client dans votre coffre de clés. En savoir plus sur les [clés gérées par le client sur un compte de stockage existant](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal).
     - Revenez à votre compte de stockage.
-    - Dans la section **Sécurité + mise en réseau**, sélectionnez le panneau **Chiffrement**.
+    - Dans la section **Sécurité + réseau**, sélectionnez le panneau **Chiffrement**.
     - Sélectionnez **Clés gérées par le client**.
     - **Sélectionnez un coffre de clés et une clé**. Sélectionnez votre coffre de clés et une clé.
     - Utilisez **Sélectionner** pour confirmer vos choix. 
