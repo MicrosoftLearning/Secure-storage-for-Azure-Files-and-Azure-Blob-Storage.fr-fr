@@ -69,7 +69,7 @@ L’entreprise conçoit et développe une nouvelle application. Les développeur
     - Sélectionnez **Créer**.
     - Sélectionnez votre **groupe de ressources**.
     - Indiquez le **nom** du coffre de clés. Le nom doit être unique.
-    - Sous l’onglet **Configuration de l’accès**, assurez-vous que **Stratégie d’accès au coffre** est sélectionné. 
+    - Vérifiez sous l’onglet **Configuration d’accès** que **Contrôle d’accès en fonction du rôle Azure (recommandé)** est sélectionné. 
     - Sélectionnez **Revoir + créer**.
     - Attendez la fin des vérifications de validation puis cliquez sur **Créer**.
     - Une fois le déploiement terminé, sélectionnez **Accéder à la ressource**.
