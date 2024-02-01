@@ -18,7 +18,7 @@ Dans cette démonstration, explorez le chiffrement et la sécurité des applicat
 
 1. Créez une **identité managée**. En savoir plus sur les [identités managées](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview).
 
-1. Créez un **coffre de clés**. Conservez les valeurs par défaut, **sauf** sous l’onglet **Configuration de l’accès**, où **Stratégie d’accès au coffre** doit être sélectionné. En savoir plus sur [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
+1. Créez un **coffre de clés**. Laissez les valeurs par défaut, **excepté** sous l’onglet **Configuration d’accès**, vérifiez que **Contrôle d’accès en fonction du rôle Azure (recommandé)** est sélectionné. En savoir plus sur [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
 1. Attendez que le coffre de clés soit déployé, puis sélectionnez **Accéder à la ressource**.
 
@@ -78,7 +78,7 @@ Dans cette démonstration, explorez le chiffrement et la sécurité des applicat
 
 ## Configurez une étendue de chiffrement pour le chiffrement d’infrastructure.
 
-1. Les développeurs doivent également prendre en compte le chiffrement de l’infrastructure au niveau du conteneur. Discutez des étendues de chiffrement et du chiffrement de l’infrastructure. En savoir plus sur les [étendues de chiffrement](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
+1. [Diapositive de support] Les développeurs doivent également délimiter le chiffrement de l’infrastructure au niveau du conteneur. Discutez des étendues de chiffrement et du chiffrement de l’infrastructure. En savoir plus sur les [étendues de chiffrement](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
 
 1. Continuez dans le **compte de stockage**.
 
