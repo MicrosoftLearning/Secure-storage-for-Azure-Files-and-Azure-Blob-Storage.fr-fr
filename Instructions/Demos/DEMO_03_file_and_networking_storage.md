@@ -50,7 +50,7 @@ Dans cette démonstration, explorez le stockage Azure Files et la mise en résea
 
 1. Passez en revue les paramètres en haut de la page. Par exemple, **Charger** et **Modifier la taille et le niveau de performance**.
 
-1. Parlez de l’objectif des instantanés. En savoir plus sur les [instantanés de partage de fichiers](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
+1. [Diapositive de support] Discutez de l’objectif des captures instantanées. En savoir plus sur les [instantanés de partage de fichiers](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
 
 1. Dans le panneau **Opérations**, sélectionnez **Instantanés**.
 
