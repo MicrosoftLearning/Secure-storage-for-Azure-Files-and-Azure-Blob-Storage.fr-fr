@@ -78,7 +78,7 @@ Dans cette démonstration, explorez le chiffrement et la sécurité des applicat
 
 ## Configurez une étendue de chiffrement pour le chiffrement d’infrastructure.
 
-1. [Diapositive de support] Les développeurs doivent également délimiter le chiffrement de l’infrastructure au niveau du conteneur. Discutez des étendues de chiffrement et du chiffrement de l’infrastructure. En savoir plus sur les [étendues de chiffrement](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
+1. Les développeurs doivent également prendre en compte le chiffrement de l’infrastructure au niveau du conteneur. Discutez des étendues de chiffrement et du chiffrement de l’infrastructure. En savoir plus sur les [étendues de chiffrement](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
 
 1. Continuez dans le **compte de stockage**.
 
