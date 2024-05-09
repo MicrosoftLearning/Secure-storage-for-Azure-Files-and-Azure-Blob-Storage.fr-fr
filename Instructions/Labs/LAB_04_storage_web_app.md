@@ -24,8 +24,11 @@ L’entreprise conçoit et développe une nouvelle application. Les développeur
     - Dans le portail, recherchez et sélectionnez **Comptes de stockage**. 
     - Sélectionnez **+ Créer**.
     - Pour **Groupe de ressources**, sélectionnez **Créer**. Donnez un **nom** à votre groupe de ressources et sélectionnez **OK** pour enregistrer vos modifications.
-    - Indiquez un **Nom de compte de stockage**. Le nom doit être unique et respecter les exigences de nommage. 
-    - Cliquez sur **Vérifier**, puis sur **Créer** pour créer le compte de stockage.
+    - Indiquez un **Nom de compte de stockage**. Le nom doit être unique et respecter les exigences de nommage.
+    - Déplacez vers l’onglet **Chiffrement**.
+    - Cochez la case **Activer le chiffrement d’infrastructure**.
+    - Notez l’avertissement suivant : *Cette option ne peut pas être modifiée après la création de ce compte de stockage.*
+    - Sélectionnez **Vérifier + créer**.
     - Attendez que la ressource soit déployée.
 
 1. Fournissez une identité managée pour l’application web.  En savoir plus [sur les identités managées](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
@@ -130,7 +133,6 @@ L’entreprise conçoit et développe une nouvelle application. Les développeur
     - Donnez un **nom** à votre étendue de chiffrement. 
     - Le **Type de chiffrement** est **Clé gérée par Microsoft**.
     - Définissez le **Chiffrement d’infrastructure** sur **Activer**.
-    - Notez l’avertissement qui indique que l’activation du chiffrement d’infrastructure ne peut pas être modifiée après la création de l’étendue.
     - **Créez** l’étendue de chiffrement.
     - Revenez à votre compte de stockage, puis créez un conteneur.
     - Notez que sur la page **Nouveau conteneur**, il y a le **Nom** et le **Niveau d’accès public**.
