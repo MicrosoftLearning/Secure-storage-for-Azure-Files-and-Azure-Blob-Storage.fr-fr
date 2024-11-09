@@ -3,8 +3,6 @@ lab:
   title: "Exercice\_02a\_: Fournir du stockage pour le site web public"
   module: Guided Project - Azure Files and Azure Blobs
 ---
-
-
 Le site web de l’entreprise fournit des images de produits, des vidéos, des documents marketing et des témoignages de réussite de clients. Les clients sont répartis dans le monde entier et la demande augmente rapidement. Le contenu est stratégique et nécessite des temps de chargement à faible latence. Il est important de faire le suivi des versions des documents et de restaurer rapidement les documents s’ils sont supprimés.
 
 ## Diagramme de l'architecture
@@ -17,7 +15,6 @@ Le site web de l’entreprise fournit des images de produits, des vidéos, des d
 - Créez un conteneur de stockage d’objets blob pour les documents du site web.
 - Activez la suppression réversible afin que les fichiers puissent être facilement restaurés.
 - Activer le contrôle de version des objets blob. 
-
 
 ## Instructions de l’exercice
 
@@ -106,4 +103,21 @@ Le site web de l’entreprise fournit des images de produits, des vidéos, des d
    - **Chargez** une autre version de votre fichier conteneur. Votre fichier existant sera alors remplacé. 
    - La version précédente de votre fichier est répertoriée sur la page **Afficher les objets blob supprimés**. 
     
+## Développer votre apprentissage avec Copilot
 
+Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut fournir des informations techniques de base, des étapes générales, des avantages et des inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
++ Qu’est-ce que le stockage d’objets blob Azure et quand doit-il être utilisé ?
++ Comparez les différents modèles de redondance de stockage Azure, en mettant en évidence leurs principales fonctionnalités et cas d’usage.
++ Quels sont les niveaux de stockage Azure et comment ces niveaux peuvent-ils économiser de l’argent ?
+
+## En savoir plus grâce à l’apprentissage auto-rythmé
+
++ [Explorer Stockage Blob Azure](https://learn.microsoft.com/training/modules/explore-azure-blob-storage/) Découvrez les principales fonctions et fonctionnalités du stockage Blob Azure.
+
+## Points clés
+
+Félicitations, vous avez terminé le labo. Voici les principaux points à retenir de ce labo. 
++ Stockage Blob Azure est optimisé pour stocker des quantités massives de données non structurées. Les données non structurées sont des données qui n’obéissent pas à un modèle ou une définition de données en particulier, comme des données texte ou binaires.
++ La suppression réversible d’objets blob protège un objet blob, un instantané ou une version contre les suppressions ou les remplacements accidentels en conservant les données supprimées dans le système pendant un laps de temps spécifié. 
++ Versioning de blob pour gérer automatiquement les versions précédentes d’un blob. Lorsque la gestion des versions des objets blob est activée, vous pouvez restaurer une version antérieure d’un objet blob pour récupérer vos données si celles-ci ont été modifiées ou supprimées par erreur.
++ Quand un conteneur est configuré pour un accès anonyme, n’importe quel client peut lire les données de ce conteneur.

@@ -101,3 +101,21 @@ L’entreprise a besoin de stockage pour ses bureaux et services. Ce contenu est
 
 >**Remarque** :pour des exercices supplémentaires, suivez le module [Configurer le stockage d’objets blob Azure](https://learn.microsoft.com/training/modules/configure-blob-storage/). Le module propose une simulation de labo interactif qui vous permet de vous familiariser davantage avec la création d’un stockage d’objets blob. 
 
+## Développer votre apprentissage avec Copilot
+
+Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut fournir des informations techniques de base, des étapes générales, des avantages et des inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
++ Quelles fonctionnalités de sécurité sont disponibles pour protéger le stockage Azure ?
++ Qu’est-ce qu’une SAP Azure et comment est-elle utilisée ?
+
+## En savoir plus grâce à l’apprentissage auto-rythmé
+
++ [Configurer la sécurité de Stockage Azure](https://learn.microsoft.com/training/modules/configure-storage-security/) Découvrez comment configurer les fonctionnalités de sécurité courantes du stockage Azure, telles que les signatures d'accès au stockage.
++ [Gérer le cycle de vie du stockage Blob Azure](https://learn.microsoft.com/training/modules/configure-storage-security/) Apprenez à gérer la disponibilité des données tout au long du cycle de vie du stockage Blob Azure.
+
+## Points clés
+
+Félicitations, vous avez terminé le labo. Voici les principaux points à retenir de ce labo. 
++ Le stockage Azure offre de nombreuses fonctionnalités de protection des données, notamment le chiffrement, le contrôle d’accès, la sécurité réseau, la surveillance et les alertes. 
++ Une signature d’accès partagé (SAS) fournit un accès délégué sécurisé aux ressources de votre compte de stockage. Avec une SAP, vous avez un contrôle granulaire sur la manière dont un client peut accéder à vos données.
++ La gestion de cycle de vie de Stockage Blob Azure offre une stratégie basée sur des règles que vous pouvez utiliser pour faire passer les données blob aux niveaux d’accès appropriés ou faire expirer les données à la fin de leur cycle de vie.
++ La réplication d’objets copie de façon asynchrone des objets blob de blocs entre un compte de stockage source et un compte de destination.
