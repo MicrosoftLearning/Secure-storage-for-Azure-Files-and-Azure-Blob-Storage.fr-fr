@@ -103,14 +103,14 @@ L’entreprise a besoin de stockage pour ses bureaux et services. Ce contenu est
 
 ## Développer votre apprentissage avec Copilot
 
-Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut fournir des informations techniques de base, des étapes générales, des avantages et des inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
-+ Quelles fonctionnalités de sécurité sont disponibles pour protéger le stockage Azure ?
-+ Qu’est-ce qu’une SAP Azure et comment est-elle utilisée ?
+Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut présenter des informations techniques de base, des étapes générales, les avantages et les inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
++ Quelles fonctionnalités de sécurité sont disponibles pour protéger le stockage Azure ?
++ Qu’est-ce qu’une sécurité de stockage Azure et comment est-elle utilisée ?
 
 ## En savoir plus grâce à l’apprentissage auto-rythmé
 
-+ [Configurer la sécurité de Stockage Azure](https://learn.microsoft.com/training/modules/configure-storage-security/) Découvrez comment configurer les fonctionnalités de sécurité courantes du stockage Azure, telles que les signatures d'accès au stockage.
-+ [Gérer le cycle de vie du stockage Blob Azure](https://learn.microsoft.com/training/modules/configure-storage-security/) Apprenez à gérer la disponibilité des données tout au long du cycle de vie du stockage Blob Azure.
++ [Configurez la sécurité de stockage Azure](https://learn.microsoft.com/training/modules/configure-storage-security/). Dans ce module, vous allez découvrir comment configurer les fonctionnalités de sécurité courantes du stockage Azure, telles que les signatures d'accès au stockage.
++ [Gérez le cycle de vie du stockage Blob Azure](https://learn.microsoft.com/training/modules/configure-storage-security/). Dans ce module, vous allez découvrir comment gérer la disponibilité des données tout au long du cycle de vie du stockage Blob Azure.
 
 ## Points clés
 

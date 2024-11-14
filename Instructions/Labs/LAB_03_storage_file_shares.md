@@ -103,18 +103,18 @@ L’entreprise est géographiquement dispersée et possède des bureaux à diff�
 
 ## Développer votre apprentissage avec Copilot
 
-Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut fournir des informations techniques de base, des étapes générales, des avantages et des inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
-+ Qu’est-ce qu’Azure File Storage et comment est-il différent du stockage d’objets blob Azure ? Comment choisir entre les deux ?
-+ Quelles sont les différentes façons de sécuriser le contenu du fichier Azure ?
+Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut présenter des informations techniques de base, des étapes générales, les avantages et les inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
++ Qu’est-ce que le stockage de fichiers Azure et en quoi est-il différent du stockage Blob Azure ? Comment choisir entre les deux ?
++ Quelles sont les différentes façons de sécuriser le contenu de fichier Azure ?
 
 ## En savoir plus grâce à l’apprentissage auto-rythmé
 
-+ [Configurez Azure Files et Azure File Sync](https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/). Dans ce module, vous allez apprendre à configurer des partages de fichiers Azure et des instantanés de partage de fichiers.
++ [Configurer Azure Files et Azure File Sync](https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/) : dans ce module, vous allez découvrir comment configurer des partages de fichiers Azure et des instantanés de partage de fichiers.
 
 ## Points clés
 
 Félicitations, vous avez terminé le labo. Voici les principaux points à retenir de ce labo. 
 + Azure Files offre des partages de fichiers pleinement managés dans le cloud qui sont accessibles via le protocole SMB (Server Message Block), protocole NFS (Network File System) et l’API REST Azure Files.
 + Azure Files permet de prendre des captures instantanées des partages de fichiers SMB et NFS. Les instantanés de partage capturent l’état d’un partage à ce point dans le temps. Les instantanés de partage assurent uniquement une protection au niveau des fichiers.
-+ Vous pouvez configurer un point de terminaison de compte de stockage pour accéder directement au partage de fichiers Azure. Vous pouvez configurer vos points de terminaison pour limiter l’accès réseau à votre compte de stockage.
++ Vous pouvez configurer un point de terminaison de compte de stockage pour accéder directement au partage de fichiers Azure. Points de terminaison pour restreindre l’accès réseau à votre compte de stockage.
 

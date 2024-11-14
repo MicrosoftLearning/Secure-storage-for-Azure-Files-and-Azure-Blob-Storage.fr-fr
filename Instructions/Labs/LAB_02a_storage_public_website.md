@@ -105,19 +105,19 @@ Le site web de l’entreprise fournit des images de produits, des vidéos, des d
     
 ## Développer votre apprentissage avec Copilot
 
-Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut fournir des informations techniques de base, des étapes générales, des avantages et des inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
-+ Qu’est-ce que le stockage d’objets blob Azure et quand doit-il être utilisé ?
+Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut présenter des informations techniques de base, des étapes générales, les avantages et les inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
++ Qu’est-ce que le stockage Blob Azure et quand doit-il être utilisé ?
 + Comparez les différents modèles de redondance de stockage Azure, en mettant en évidence leurs principales fonctionnalités et cas d’usage.
-+ Quels sont les niveaux de stockage Azure et comment ces niveaux peuvent-ils économiser de l’argent ?
++ Quels sont les niveaux de stockage Azure et comment ces niveaux permettent-ils d’économiser de l’argent ?
 
 ## En savoir plus grâce à l’apprentissage auto-rythmé
 
-+ [Explorer Stockage Blob Azure](https://learn.microsoft.com/training/modules/explore-azure-blob-storage/) Découvrez les principales fonctions et fonctionnalités du stockage Blob Azure.
++ [Explorez le stockage Blob Azure](https://learn.microsoft.com/training/modules/explore-azure-blob-storage/). Dans ce module, vous allez découvrir les principales fonctions et fonctionnalités du stockage Blob Azure.
 
 ## Points clés
 
 Félicitations, vous avez terminé le labo. Voici les principaux points à retenir de ce labo. 
 + Stockage Blob Azure est optimisé pour stocker des quantités massives de données non structurées. Les données non structurées sont des données qui n’obéissent pas à un modèle ou une définition de données en particulier, comme des données texte ou binaires.
 + La suppression réversible d’objets blob protège un objet blob, un instantané ou une version contre les suppressions ou les remplacements accidentels en conservant les données supprimées dans le système pendant un laps de temps spécifié. 
-+ Versioning de blob pour gérer automatiquement les versions précédentes d’un blob. Lorsque la gestion des versions des objets blob est activée, vous pouvez restaurer une version antérieure d’un objet blob pour récupérer vos données si celles-ci ont été modifiées ou supprimées par erreur.
++ Le contrôle de version des blobs conserve les versions précédentes d’un blob. Lorsque le contrôle de version des blobs est activé, vous pouvez restaurer une version antérieure d’un objet blob pour récupérer vos données si celles-ci ont été modifiées ou supprimées.
 + Quand un conteneur est configuré pour un accès anonyme, n’importe quel client peut lire les données de ce conteneur.
