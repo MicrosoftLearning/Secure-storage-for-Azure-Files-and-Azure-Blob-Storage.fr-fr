@@ -143,7 +143,7 @@ L’entreprise conçoit et développe une nouvelle application. Les développeur
 
 ## Nettoyage de vos ressources
 
-Si vous travaillez avec **votre propre abonnement**, prenez un moment pour supprimer les ressources du labo. Ceci garantit que les ressources sont libérées et que les coûts sont réduits. Le moyen le plus simple de supprimer les ressources du labo est de supprimer le groupe de ressources du labo. 
+Si vous travaillez avec **votre propre abonnement** et que vous avez terminé ces labos, prenez un moment pour supprimer les ressources du labo. Ceci garantit que les ressources sont libérées et que les coûts sont réduits. Le moyen le plus simple de supprimer les ressources du labo est de supprimer le groupe de ressources du labo. 
 
 + Dans le Portail Azure, sélectionnez le groupe de ressources, **Supprimer le groupe de ressources**, **Entrer le nom du groupe de ressources**, puis cliquez sur **Supprimer**.
 + `Remove-AzResourceGroup -Name resourceGroupName` en utilisant Azure PowerShell.
@@ -151,17 +151,17 @@ Si vous travaillez avec **votre propre abonnement**, prenez un moment pour suppr
 
 ## Développer votre apprentissage avec Copilot
 
-Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut fournir des informations techniques de base, des étapes générales, des avantages et des inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
-+ Qu’est-ce qu’une identité managée Azure et comment peut-elle être utilisée avec le stockage Azure ?
-+ Quels rôles intégrés de contrôle d’accès en fonction du rôle (RBAC) sont disponibles pour gérer l’accès aux Stockage Azure. 
-+ Qu’est-ce que les clés gérées par le client et comment sont-elles utilisées pour le stockage Azure ?
+Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut présenter des informations techniques de base, des étapes générales, les avantages et les inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
++ Qu’est-ce qu’une identité managée Azure et comment peut-elle être utilisée avec le stockage Azure ?
++ Quels rôles intégrés de contrôle d’accès en fonction du rôle (RBAC) sont disponibles pour gérer l’accès au stockage Azure. 
++ Qu’est-ce que les clés gérées par le client et comment sont-elles utilisées pour le stockage Azure ?
 
 ## En savoir plus grâce à l’apprentissage auto-rythmé
 
-+ [Sécuriser et isoler l’accès aux ressources Azure en utilisant des groupes de sécurité réseau et des points de terminaison de service](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/). Utiliser des points de terminaison de service de réseau virtuel pour contrôler le trafic réseau vers et depuis les services Azure
++ [Sécuriser et isoler l’accès aux ressources Azure en utilisant des groupes de sécurité réseau et des points de terminaison de service](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/). Dans ce module, vous allez découvrir comment utiliser des points de terminaison de service de réseau virtuel pour contrôler le trafic réseau en provenance et à destination des services Azure.
 
 ## Points clés
-+ Rôles intégrés Azure pour Azure RBAC Celles-ci sont couvertes par les rôles Propriétaire des données Blob du stockage, Contributeur aux données en file d’attente du stockage et Contributeur de compte de stockage.
++ Azure a des rôles RBAC intégrés pour le stockage Azure. Ces rôles incluent : contributeur de compte de stockage, propriétaire des données BLOB de stockage, et contributeur de partage SMB de données de fichier.
 + Vous pouvez utiliser votre propre clé de chiffrement pour protéger les données de votre compte de stockage. Quand vous spécifiez une clé gérée par le client, cette clé est utilisée pour protéger et contrôler l’accès à la clé qui chiffre vos données. 
-+ Le stockage immuable garantit que les données ne peuvent pas être modifiées ou supprimées pour un intervalle spécifié par l’utilisateur. Il existe deux types de stratégies immuables : la conservation temporelle et légale.
++ Le stockage immuable garantit que les données ne peuvent pas être modifiées ou supprimées pendant un intervalle spécifié par l’utilisateur. Il existe deux types de stratégies immuables : la conservation limitée dans le temps et la conservation légale.
 + Le chiffrement d’infrastructure peut être activé pour l’ensemble du compte de stockage ou pour une étendue de chiffrement au sein d’un compte. Le chiffrement de l’infrastructure est recommandé pour les scénarios où le chiffrement double des données est nécessaire pour les exigences de conformité. 

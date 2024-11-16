@@ -65,20 +65,20 @@ Le service informatique doit prototyper différents scénarios de stockage et fo
 
 ## Développer votre apprentissage avec Copilot
 
-Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut fournir des informations techniques de base, des étapes générales, des avantages et des inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
-+ Qu'est-ce qu'un compte Azure Storage ? Quels sont les types de comptes de stockage disponibles ?
-+ Créez une table comparant les niveaux de performances du stockage Azure. Mettez à jour leurs principales fonctionnalités et cas d’usage. 
-+ Quelles sont les options de redondance de stockage disponibles ? Quand utiliser chaque API ?
+Copilot peut vous aider dans votre parcours d’apprentissage. Copilot peut présenter des informations techniques de base, des étapes générales, les avantages et les inconvénients, de l’aide à la résolution des problèmes, des cas d’utilisation, des exemples de codage, etc. Pour accéder à Copilot, ouvrez un navigateur Edge et choisissez Copilot (en haut à droite). Prenez quelques minutes pour essayer ces invites.
++ Qu’est-ce qu’un compte de stockage Azure ? Quels sont les types de comptes de stockage Azure disponibles ?
++ Créez un tableau comparant les niveaux de performances du stockage Azure. Mettez en avant ses principales fonctionnalités et cas d’usage. 
++ Quelles sont les options de redondance de stockage Azure disponibles ? Quand utiliser chaque option ?
 
 ## En savoir plus grâce à l’apprentissage auto-rythmé
 
-+ Décrire les services de stockage Azure. Dans ce module, vous comparez les services de stockage Azure, décrivez les niveaux de stockage et décrivez les options de redondance.
-+ [Créer un compte de stockage Azure](https://learn.microsoft.com/training/modules/create-azure-storage-account/) Dans cette tâche, vous allez créer et configurer un compte de stockage. 
++ [Décrivez les services de stockage Azure](https://learn.microsoft.com/training/modules/describe-azure-storage-services/). Dans ce module, vous allez comparer les services de stockage Azure, décrivre les niveaux de stockage et les options de redondance.
++ [Créer un compte de stockage Azure](https://learn.microsoft.com/training/modules/create-azure-storage-account/) Dans ce module, vous allez créer et configurer un compte de stockage. 
 
 ## Points clés
 
 Félicitations, vous avez terminé le labo. Voici les principaux points à retenir de ce labo. 
-+ Un compte de stockage Azure contient tous vos objets de données Stockage Azure : les blobs, les fichiers, les files d’attente et les tables.
-+ Le stockage Azure offre plusieurs types de comptes de stockage. Chaque type prend en charge différentes fonctionnalités et a son propre modèle tarifaire.
++ Un compte de stockage Azure est un conteneur qui comprend tous vos objets de données de stockage Azure, y compris les blobs, les fichiers, les files d’attente et les tables.
++ Le stockage Azure offre plusieurs types de comptes de stockage, Standard et Premium. Chaque type prend en charge différentes fonctionnalités et a son propre modèle tarifaire.
 + Le stockage Azure stocke toujours plusieurs copies de vos données afin de les protéger contre les événements planifiés et non planifiés.
 + Les modèles de redondance peuvent répliquer des données dans les régions primaires et secondaires. 
